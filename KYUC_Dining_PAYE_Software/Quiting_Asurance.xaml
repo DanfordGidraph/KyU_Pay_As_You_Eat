@@ -1,0 +1,18 @@
+﻿<Window x:Class="Quiting_Asurance"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KYUC_Dining_PAYE_Software"
+        mc:Ignorable="d"
+        Title="Quiting_Asurance" Height="120" Width="300" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"/>
+        </Grid.RowDefinitions>
+        <Label x:Name="quitQuestionLbl" Grid.Row="0" Margin="0" Content="Are You Sure You Want To EXIT" TextBlock.TextAlignment="Center" FontFamily="Showcard Gothic" FontSize="16"/>
+        <Button Margin="23,41,186,-30" Height="30" Content="Cancel" Click="Button_Click"/>
+        <Button Margin="168,41,44,-30" Height="30" Content="Exit" Click="Button_Click_1"/>
+
+    </Grid>
+</Window>
